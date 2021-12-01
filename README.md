@@ -7,11 +7,12 @@
     C:\Users\[USERNAME]\qmk_firmware\keyboards\jnao\keymaps\joenao
     ~~~
 * ### Edit files as needed
-* ### To generate keymap.json file:
+* ### Generate a json :
     ~~~
     qmk c2json -km joenao -kb jnao C:/Users/[USERNAME]/qmk_firmware/keyboards/JNAO/keymaps/joenao/keymap.c --no-cpp
     ~~~
-* ### To compile / flash
+
+* ### Compile / flash:
     ~~~
     qmk [compile / flash] -kb jnao -km joenao
     ~~~
